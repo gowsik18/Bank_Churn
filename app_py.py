@@ -1,4 +1,5 @@
 import streamlit as st
+import joblib
 from joblib import load
 
 # --------------------------------------------------
