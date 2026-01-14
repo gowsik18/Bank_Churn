@@ -13,7 +13,7 @@ import joblib
 # --------------------------------------------------
 # Load trained pipeline
 # --------------------------------------------------
-model = joblib.load('/kaggle/working/churn_pipeline.pkl')
+model = joblib.load('churn_pipeline.pkl')
 
 st.set_page_config(page_title="Bank Churn Prediction", layout="centered")
 st.title("🏦 Bank Customer Churn Prediction System")
