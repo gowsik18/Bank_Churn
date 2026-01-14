@@ -1,10 +1,10 @@
 import streamlit as st
-import joblib
+from joblib import load
 
 # --------------------------------------------------
 # Load trained pipeline
 # --------------------------------------------------
-model = joblib.load('churn_pipeline.pkl')
+model = load('churn_pipeline.pkl')
 
 st.set_page_config(page_title="Bank Churn Prediction", layout="centered")
 st.title("🏦 Bank Customer Churn Prediction System")
